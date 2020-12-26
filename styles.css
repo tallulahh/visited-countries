@@ -1,0 +1,45 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #AADAFF;
+  font-family: "Georgia", sans-serif;
+}
+.container {
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+}
+
+.welcome {
+  width: 40%;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  z-index: 1000;
+  background-color: white;
+  text-align: center;
+  opacity: 0.8;
+  border-radius: 2%;
+}
+#vmap {
+  width: 75%;
+  height: 75%;
+  margin-top: 5%;
+}
+
+#name {
+  font-size: 50px;
+  position: absolute;
+  top: 5%;
+  right: 0;
+  width: 475px;
+
+}
+.text {
+  position: absolute;
+  z-index: 1000;
+  top: 20%;
+  right: 0;
+  width: 400px;
+}
